@@ -1,0 +1,15 @@
+[
+  {
+    "description": "这是一个post接口",
+    "request":
+    {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response":
+    {
+    "headers": {"Content-Type": "text/html;charset=uft-8"},
+      "text": "这是我mock的第一个post接口"
+    }
+  }
+]

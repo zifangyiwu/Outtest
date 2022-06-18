@@ -1,0 +1,14 @@
+[
+  {
+    "description": "这是我写的第一个mock接口",
+    "request": {
+      "uri": "/demo"
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=uft-8"
+      },
+      "text": "这是我写的第一个mock接口"
+    }
+  }
+]
