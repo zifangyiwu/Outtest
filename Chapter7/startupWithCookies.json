@@ -3,11 +3,11 @@
     "description": "这是一个会返回cookies的get请求",
     "request": {"uri": "/getcookies","method": "get"},
     "response": {"headers":{"Content-Type": "text/html;charset=GB2312"},
-      "cookies":{"login": "true","status": "2000"},"text": "恭喜你获得了cookies"}
+      "cookies":{"login": "true"},"text": "恭喜你获得了cookies"}
   },
   {"description":"这是一个带cookies信息的get请求",
     "request":{"uri":"/get/with/cookies","method":"get","cookies":{"login":"true"}},
-    "response":{"headers":{"Content-Type": "text/html;charset=uft-8"},"text":"这是一个需要携带cookies信息才能访问的get请求"}
+    "response":{"headers":{"Content-Type": "text/html;charset=GB2312"},"text":"这是一个需要携带cookies信息才能访问的get请求"}
   },
   {
     "description": "这是一个带cookies的post请求",
